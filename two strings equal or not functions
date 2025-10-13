@@ -1,0 +1,8 @@
+def my_function(s1,s2):
+    if s1==s2:
+        print("equal")
+    else:
+        print("not equal")
+s1=input("enter the first string:")
+s2=input("enter the second string:")
+my_function(s1,s2)
