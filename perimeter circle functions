@@ -1,0 +1,6 @@
+def my_function(r,pi):
+    perimeter=2*pi*r
+    print("perimeter circle =",perimeter)
+r=float(input("enter the radius:"))
+pi=3.14
+my_function(r,pi)
