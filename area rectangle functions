@@ -1,0 +1,6 @@
+def my_function(l,b):
+    area=l*b
+    print("area rectangle =",area)
+l=float(input("enter the length:"))
+b=float(input("enter the breadth:"))
+my_function(l,b)
