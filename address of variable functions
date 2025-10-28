@@ -1,0 +1,5 @@
+def my_function(s):
+    address=id(s)
+    print("address of variable =",address)
+s=input("enter the string:")
+my_function(s)
