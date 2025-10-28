@@ -1,0 +1,7 @@
+def my_function(s,add):
+    for i in range(len(s)):
+        add=add+s[i]
+    print("sum =",add)
+s=[1,2,3,4,5]
+add=0
+my_function(s,add)
