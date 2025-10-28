@@ -1,0 +1,4 @@
+def my_function():
+    print("keyword =",keyword.kwlist)
+import keyword
+my_function()
