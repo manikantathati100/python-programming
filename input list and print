@@ -1,0 +1,6 @@
+n=int(input("enter the size:"))
+s=[]
+for i in range(0,n):
+    s1=int(input(f"enter the {i+1} value:"))
+    s.append(s1)
+print(s)
