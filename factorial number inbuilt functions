@@ -1,0 +1,12 @@
+
+def my_function(n):
+    if n<0:
+        return "not possible"
+    elif n==0:
+        return 1
+    else:
+        return math.factorial(n)
+import math
+n=int(input("enter the number:"))
+result=my_function(n)
+print(result)
