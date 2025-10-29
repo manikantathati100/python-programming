@@ -1,0 +1,8 @@
+def ny_function(lower,upper,n):
+    for i in range(lower,upper+1):
+        if i%n==0:
+            print(i)
+lower=int(input("enter the lower limit:"))
+upper=int(input("enter the upper limit:"))
+n=int(input("enter the number:"))
+ny_function(lower,upper,n)
